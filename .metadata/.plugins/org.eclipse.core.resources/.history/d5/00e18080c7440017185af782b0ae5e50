@@ -1,0 +1,10 @@
+package br.com.fiap.persistenciaEmJava.aula2.roteiro2.aplicacao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

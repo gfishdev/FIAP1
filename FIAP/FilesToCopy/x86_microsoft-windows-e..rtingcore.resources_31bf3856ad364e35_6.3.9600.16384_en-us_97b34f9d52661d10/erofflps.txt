@@ -1,0 +1,38 @@
+﻿For your convenience, here is the text of the Windows Error Reporting section of the Windows privacy statement. To see the latest version, please visit the online version of this privacy statement at http://go.microsoft.com/fwlink/?LinkId=280262.
+
+
+What this feature does
+
+Windows Error Reporting helps Microsoft and Microsoft partners diagnose problems in the software you use and provide solutions. Not all problems have solutions, but when solutions are available, they are offered as steps to solve a problem you’ve reported or as updates to install. To help prevent problems and make software more reliable, some solutions are also included in service packs and future versions of the software.
+
+
+Information collected, processed, or transmitted
+
+Many software products are designed to work with Windows Error Reporting. If a problem occurs in one of these products, you might be asked if you want to report it.
+
+Windows Error Reporting collects information that is useful for diagnosing and solving a problem that has occurred, such as where the problem happened in the software or hardware, the type or severity of the problem, files that help describe the problem, basic software and hardware information, or possible software performance and compatibility problems. If you use Windows to host virtual machines, error reports sent to Microsoft might include information about virtual machines.
+
+Windows Error Reporting also collects information about apps, drivers, and devices to help Microsoft understand and improve app and device compatibility. Information about an app might include the name of the app’s executable files. Information about devices and drivers might include the names of devices you’ve installed on your PC and the executable files associated with those devices’ drivers. Information about the company that published an app or driver might be collected.
+
+If you choose to enable automatic reporting while setting up Windows, the reporting service will automatically send basic information about where problems occur. In some cases, the reporting service will automatically send additional information to help diagnose the problem, such as a partial snapshot of PC memory. Some error reports might unintentionally contain personal information. For example, a report that contains a snapshot of PC memory might include your name, part of a document you were working on, or data that you recently submitted to a website. 
+To help diagnose certain types of problems, Windows Error Reporting might create a report containing extra information, such as log files. Before sending a report containing this additional information, Windows will ask if you want to send the report, even if you’ve enabled automatic reporting.
+
+After you send a report, the reporting service might ask you for more information about the problem that occurred. If you choose to provide your phone number or email address in this information, your error report will be personally identifiable. Microsoft might contact you to request additional information to help solve the problem you reported.
+
+Windows Error Reporting randomly generates a number called a globally unique identifier (GUID) that is sent to Microsoft with every error report. The GUID lets us determine which data is sent from a particular computer over time. The GUID doesn’t contain any personal information.
+
+To help protect your privacy, the information is sent encrypted via SSL.
+
+
+Use of information
+
+Microsoft uses information about errors and problems reported by Windows users to improve Microsoft products and services, as well as third-party software and hardware designed for use with these products and services. We use the GUID to determine how widespread the feedback we receive is and how to prioritize it. For example, the GUID allows Microsoft to distinguish between one customer experiencing a problem one hundred times and one hundred customers experiencing the same problem once.
+
+Microsoft employees, contractors, vendors, and partners might be provided access to relevant portions of the information collected, but they’re only permitted to use the information to repair or improve Microsoft products and services, or third-party software and hardware designed for use with Microsoft products and services. If an error report contains personal information, Microsoft doesn’t use the information to identify, contact, or target advertising to you. However, if you choose to provide contact information as described above, we may use this information to contact you.
+
+
+Choice and control
+
+If you choose express settings while setting up Windows, Windows Error Reporting will automatically send basic reports to check for solutions to problems online. If you choose to customize settings, you can control Windows Error Reporting by selecting Use Windows Error Reporting to check for solutions to problems under Check online for solutions to problems. After setting up Windows, you can change this setting in Action Center in Control Panel.
+For more information, see the Microsoft Error Reporting Service privacy statement at:
+http://go.microsoft.com/fwlink/?LinkId=50163 

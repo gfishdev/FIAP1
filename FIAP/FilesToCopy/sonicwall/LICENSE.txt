@@ -1,0 +1,241 @@
+﻿===============================================================================
+SonicWALL Mobile Connect
+===============================================================================
+
+Copyright © 2011-2013 Dell, Inc.  All rights reserved.
+
+SONICWALL®, the SONICWALL Logo and SONICWALL MOBILE CONNECT™ are trademarks
+or registered trademarks of SonicWALL, LLC, a wholly owned subsidiary of Dell.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OR MERCHANTIBILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not be
+used in advertising or otherwise to promote the sale, use, or other dealings in
+this Software without prior written authorization of the copyright holder.
+
+
+===============================================================================
+Third Party Copyrights and Licenses
+===============================================================================
+
+Portions of SonicWALL Mobile Connect software are provided pursuant to the
+following:
+
+This product incorporates LZ4: Copyright © 2011-2013, Yann Collet.
+
+This product incorporates the Entities library: Copyright © 2012, Christoph
+Gärtner, ooxi/entities
+
+This product incorporates BSD software: Copyright 1979, 1980, 1983, 1986, 1988,
+1989, 1991, 1992, 1993, 1994 The Regents of the University of California. All
+rights reserved.
+
+This product incorporates elements from the libbind library: Copyright ©
+2004-2013 by Internet Systems Consortium, Inc. (“ISC”) and Copyright ©
+1995-2003 by Internet Software Consortium
+
+
+===============================================================================
+1. LZ4 - Fast LZ compression algorithm (http://code.google.com/p/lz4/)
+===============================================================================
+
+Copyright (C) 2011-2013, Yann Collet.
+BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer. * Redistributions in binary
+form must reproduce the above copyright notice, this list of conditions and the
+following disclaimer in the documentation and/or other materials provided with
+the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+You can contact the author at :
+- LZ4 homepage : http://fastcompression.blogspot.com/p/lz4.html
+- LZ4 source repository : http://code.google.com/p/lz4/ */
+
+
+===============================================================================
+2. Entities - A simple ANSI C library for decoding HTML entities to UTF-8
+(https://github.com/ooxi/entities/blob/master/LICENSE)
+===============================================================================
+
+Copyright 2012 Christoph Gärtner, ooxi/entities
+https://bitbucket.org/cggaertner/cstuff
+https://github.com/ooxi/entities
+
+Distributed under the Boost Software License, Version 1.0
+
+Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the "Software") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+
+===============================================================================
+3. libbind - ISC libbind provides the standard resolver library, along with
+header files and documentation, for communicating with domain name servers,
+retrieving network host entries from /etc/hosts or via DNS, converting CIDR
+network addresses, perform Hesiod information lookups, retrieve network entries
+from /etc/networks, implement TSIG transaction/request security of DNS
+messages, perform name-to-address and address-to-name translations, utilize
+/etc/resolv.conf for resolver configuration. libbind is licensed under a BSD
+license. (https://www.isc.org/downloads/software-support-policy/isc-license/)
+===============================================================================
+
+Copyright © 2004-2013 by Internet Systems Consortium, Inc. (“ISC”)
+Copyright © 1995-2003 by Internet Software Consortium
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED “AS IS” AND ISC DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+SOFTWARE.
+
+
+===============================================================================
+4. BSD software components related to IP/socket subject to the 4.4BSD Copyright
+(http://www.freebsd.org/copyright/license.html)
+===============================================================================
+
+The 4.4BSD Copyright
+
+All of the documentation and software included in the 4.4BSD and 4.4BSD-Lite
+Releases is copyrighted by The Regents of the University of California.
+
+Copyright 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994 The
+Regents of the University of California. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+
+    Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+
+    All advertising materials mentioning features or use of this software must
+    display the following acknowledgement:
+
+        This product includes software developed by the University of
+        California, Berkeley and its contributors.
+
+    Neither the name of the University nor the names of its contributors may be
+    used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The Institute of Electrical and Electronics Engineers and the American National
+Standards Committee X3, on Information Processing Systems have given us
+permission to reprint portions of their documentation.
+
+In the following statement, the phrase ``this text'' refers to portions of the
+system documentation.
+
+Portions of this text are reprinted and reproduced in electronic form in the
+second BSD Networking Software Release, from IEEE Std 1003.1-1988, IEEE
+Standard Portable Operating System Interface for Computer Environments (POSIX),
+copyright C 1988 by the Institute of Electrical and Electronics Engineers, Inc.
+In the event of any discrepancy between these versions and the original IEEE
+Standard, the original IEEE Standard is the referee document.
+
+In the following statement, the phrase ``This material'' refers to portions of
+the system documentation.
+
+This material is reproduced with permission from American National Standards
+Committee X3, on Information Processing Systems. Computer and Business
+Equipment Manufacturers Association (CBEMA), 311 First St., NW, Suite 500,
+Washington, DC 20001-2178. The developmental work of Programming Language C was
+completed by the X3J11 Technical Committee.
+
+The views and conclusions contained in the software and documentation are those
+of the authors and should not be interpreted as representing official policies,
+either expressed or implied, of the Regents of the University of California.
+
+NOTE: The copyright of UC Berkeley's Berkeley Software Distribution ("BSD")
+source has been updated. The copyright addendum may be found at
+ftp://ftp.cs.berkeley.edu/pub/4bsd/README.Impt.License.Change and is included
+below.
+
+    July 22, 1999
+
+    To All Licensees, Distributors of Any Version of BSD:
+
+    As you know, certain of the Berkeley Software Distribution ("BSD") source
+    code files require that further distributions of products containing all or
+    portions of the software, acknowledge within their advertising materials
+    that such products contain software developed by UC Berkeley and its
+    contributors.
+
+    Specifically, the provision reads:
+
+    "     * 3. All advertising materials mentioning features or use of this
+               software
+          *	   must display the following acknowledgement:
+          *	   This product includes software developed by the University of
+          *	   California, Berkeley and its contributors."
+
+    Effective immediately, licensees and distributors are no longer required to
+    include the acknowledgement within advertising materials. Accordingly, the
+    foregoing paragraph of those BSD Unix files containing it is hereby deleted
+    in its entirety.
+
+    William Hoskins
+    Director, Office of Technology Licensing
+    University of California, Berkeley
+===============================================================================

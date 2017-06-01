@@ -1,0 +1,17 @@
+package br.com.fiap.core;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+/**
+ * NEDA_SUA_CONTA :D
+ * @author notin
+ *
+ */
+public class Neda {
+
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("FIAP_AULA3_JPA_E_JDBC");
+	}
+
+}

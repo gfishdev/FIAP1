@@ -1,0 +1,7 @@
+
+public enum Cores {
+	private String nomeCor;
+	private String codigoCor;
+	
+	
+}

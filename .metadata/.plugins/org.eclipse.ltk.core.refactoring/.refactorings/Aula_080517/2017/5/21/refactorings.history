@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Aula_080517/FilesCopied&apos; to &apos;CopiedFiles&apos;" description="Rename resource &apos;FilesCopied&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FilesCopied" name="CopiedFiles" stamp="1495502116001" updateReferences="true"/>
+</session>

@@ -1,0 +1,9 @@
+package br.com.fiap.core;
+
+public class Neda {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

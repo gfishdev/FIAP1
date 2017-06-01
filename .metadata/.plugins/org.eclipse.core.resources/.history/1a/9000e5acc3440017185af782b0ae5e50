@@ -1,0 +1,55 @@
+package br.com.fiap.persistenciaEmJava.aula2.roteiro2.dao;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.fiap.persistenciaEmJava.aula1.roteiro1.entity.Pedido;
+import br.com.fiap.persistenciaEmJava.aula2.roteiro2.entity.Pedidos;
+
+public class MySQLPedidosDao implements PedidosDao {
+	Connection cn = null;
+	PreparedStatement stmt;
+	
+	@Override
+	public void incluirPedido(Pedidos pedido) throws Exception {
+		try {
+			cn = MySQLDaoFactory.criarConexao();
+			stmt = cn.prepareStatement("INSERT INTO PEDIDOS (IDCLIENTE,DATA,DESCRICAO,VALOR) VALUES (?,?,?, ?)");
+			stmt.setInt(1, pedido.getIdCliente());
+			stmt.setDate(2, new Date(pedido.getData().getTime()));
+			stmt.setString(3, pedido.getDescricao());
+			stmt.setDouble(4, pedido.getValor());
+			stmt.executeUpdate();
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			cn.close();
+		}
+	}
+
+	@Override
+	public List<Pedidos> listarPedidos(int idCliente) throws Exception {
+		try {
+			List<Pedidos> pedidos = new ArrayList<>();
+			cn = MySQLDaoFactory.criarConexao();
+			stmt = cn.prepareStatement("SELECT ID,IDCLIENTE,DATA,DESCRICAO,VALOR FROM PEDIDOS WHERE IDCLIENTE=?");
+			stmt.setInt(1, idCliente);
+			ResultSet result = stmt.executeQuery();
+			
+			if(result.next()) {
+				Pedido p = new Pedidos(result.getInt("IDCLIENTE"), result.getDate("DATA"), result.getString("DESCRICAO"), result.getDouble("VALOR"));
+				p.setId(result.getInt("ID"));
+				pedidos.add();
+			}
+			
+		} catch (Exception e) {
+			throw e;
+		} finally {
+			cn.close();
+		}
+	}
+}

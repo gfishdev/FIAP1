@@ -1,0 +1,56 @@
+public class Aviao extends Thread {
+
+	private String nomeVoo;
+	private Aeroporto airport;
+	private String acao;
+
+	public Aviao(String nomeVoo, Aeroporto airport) {
+		super();
+		this.nomeVoo = nomeVoo;
+		this.airport = airport;
+	}
+
+	public void voar() {
+		try {
+			Thread.sleep(2000);
+			acao = "voando";
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void decolar() throws InterruptedException {
+		boolean result = airport.verificarPistaDisponivel();
+		if (result) {
+			acao = "decolando";
+			this.notify();
+			System.out.println("Decolando...");
+		} else {
+			this.wait();
+		}
+	}
+
+	public void aterrissar() throws InterruptedException {
+		boolean result = airport.verificarPistaDisponivel();
+		if (result) {
+			acao = "aterrisando";
+			this.notify();
+			System.out.println("Pode aterrissar, pista livre!");
+		} else {
+			this.wait();
+		}
+	}
+
+	@Override
+	public void run() {
+		super.run();
+		try {
+			decolar();
+			voar();
+			aterrissar();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

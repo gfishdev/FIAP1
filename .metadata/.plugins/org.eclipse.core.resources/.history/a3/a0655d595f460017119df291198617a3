@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class Atividade4 {
+	public static void main(String[] args) {
+		JTable table = null;
+		List<String> cores = new ArrayList<>();
+		List<String> codigos = new ArrayList<>();
+		for (Cores c : Cores.values()) {
+			JOptionPane.showMessageDialog(null, "Cor: " + c.getNomeCor() + ", com código: " + c.getCodigoCor());
+			table = new JTable(c.getCodigoCor(), c.getCodigoCor());
+		}
+		Object[][] rows = {"teste", "teste"};
+		Object[] cols = {"Cor", "Código"};
+		
+		JOptionPane.showMessageDialog(null, new JScrollPane(table));
+//		JOptionPane.showMessageDialog(null, "BRANCO");
+	}
+}

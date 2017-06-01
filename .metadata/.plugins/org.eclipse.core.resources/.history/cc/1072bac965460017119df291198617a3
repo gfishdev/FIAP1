@@ -1,0 +1,36 @@
+import java.util.Random;
+
+public class Aeroporto extends Thread {
+
+    private String nomeAeroporto;
+    private boolean pistaLiberada = false;
+
+    public Aeroporto(String nomeAeroporto) {
+        this.nomeAeroporto = nomeAeroporto;
+    }
+
+    public void pistaDisponivel(Aviao t) throws InterruptedException{
+    	if(!pistaLiberada) {
+    		System.out.println(t.getNomeVoo() + " Esperando para aterrisar...");
+    		t.wait();
+    	}
+    }
+
+    public void alterarEstadoPista(){
+        try {
+            Thread.sleep(3000);
+            Random random = new Random();
+            pistaLiberada = false;
+            if(pistaLiberada)
+            	this.notifyAll();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void run() {
+    	super.run();
+    	alterarEstadoPista();
+    }
+}

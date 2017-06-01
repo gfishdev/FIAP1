@@ -1,0 +1,4 @@
+public interface ClientesDao {
+void inserirCliente(Clientes cliente) throws Exception;
+Clientes buscarCliente(int id) throws Exception;
+}

@@ -1,0 +1,14 @@
+package br.com.fiap.core;
+
+/**
+ * NEDA_SUA_CONTA :D
+ * @author notin
+ *
+ */
+public class Neda {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

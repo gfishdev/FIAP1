@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class Atividade4 {
+	public static void main(String[] args) {
+		Object[][] rows = {};
+		Object[] cols = {"Cor", "Código"};
+		JTable table = null;
+		for (Cores c : Cores.values()) {
+			JOptionPane.showMessageDialog(null, "Cor: " + c.getNomeCor() + ", com código: " + c.getCodigoCor());
+			table = new JTable(c.getCodigoCor(), c.getCodigoCor());
+		}
+		
+		JOptionPane.showMessageDialog(null, new JScrollPane(table));
+//		JOptionPane.showMessageDialog(null, "BRANCO");
+	}
+}
