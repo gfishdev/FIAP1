@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FIAP_AULA3_JPA_E_JDBC&apos; to &apos;AULA3_PERSISTENCIA_EM_JAVA&apos;" description="Rename resource &apos;FIAP_AULA3_JPA_E_JDBC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/FIAP_AULA3_JPA_E_JDBC" name="AULA3_PERSISTENCIA_EM_JAVA" stamp="1496282149203" updateReferences="true"/>
+</session>
