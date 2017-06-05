@@ -1,4 +1,0 @@
-public interface PedidosDao {
-void incluirPedido(Pedidos pedido) throws Exception;
-List<Pedidos> listarPedidos(int idCliente) throws Exception;
-}

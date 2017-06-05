@@ -47,3 +47,17 @@
 2017-05-31 22:53:18,040 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @20381ms
 2017-05-31 22:57:18,385 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1fa44b2b{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
 2017-05-31 22:57:18,399 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2c20ece4{/help,null,UNAVAILABLE}
+2017-06-05 20:04:56,879 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @41984ms
+2017-06-05 20:04:57,548 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-06-05 20:04:57,737 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4e3d773b{/help,null,AVAILABLE}
+2017-06-05 20:04:58,022 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@21280fbf{HTTP/1.1,[http/1.1]}{127.0.0.1:25609}
+2017-06-05 20:04:58,022 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @43159ms
+2017-06-05 20:11:05,927 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@21280fbf{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-06-05 20:11:05,940 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4e3d773b{/help,null,UNAVAILABLE}
+2017-06-05 20:12:17,553 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @59474ms
+2017-06-05 20:12:17,656 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-06-05 20:12:17,712 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7017609c{/help,null,AVAILABLE}
+2017-06-05 20:12:17,729 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@79ddb153{HTTP/1.1,[http/1.1]}{127.0.0.1:26037}
+2017-06-05 20:12:17,729 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @59653ms
+2017-06-05 20:33:50,757 [Worker-85] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar
+2017-06-05 20:33:51,543 [Worker-85] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar

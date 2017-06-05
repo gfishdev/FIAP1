@@ -3,3 +3,8 @@ INFO     Validating project: FIAP_AULA3_JPA_E_JDBC
 INFO     Finished validating project: FIAP_AULA3_JPA_E_JDBC
 
 Migration complete
+
+INFO     Validating project: AULA3_PERSISTENCIA_EM_JAVA
+INFO     Finished validating project: AULA3_PERSISTENCIA_EM_JAVA
+
+Migration complete

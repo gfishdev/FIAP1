@@ -1,4 +1,0 @@
-public class MySQLPedidosDao implements PedidosDao{
-@Override
-public void incluirPedido(Pedidos pedido) throws Exception {
-}

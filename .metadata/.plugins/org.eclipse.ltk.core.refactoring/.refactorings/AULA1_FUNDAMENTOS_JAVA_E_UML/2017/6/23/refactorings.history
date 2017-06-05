@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;br.com.fiap.persistenciaEmJava.aula1&apos; to &apos;FIAP/src/br.com.fiap&apos;&#x0D;&#x0A;- Original project: &apos;AULA1_FUNDAMENTOS_JAVA_E_UML&apos;&#x0D;&#x0A;- Destination element: &apos;FIAP/src/br.com.fiap&apos;&#x0D;&#x0A;- Original element: &apos;AULA1_FUNDAMENTOS_JAVA_E_UML/src/br.com.fiap.persistenciaEmJava.aula1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=FIAP/src&lt;br.com.fiap" element1="/src&lt;br.com.fiap.persistenciaEmJava.aula1" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1496706285785" version="1.0"/>
+</session>

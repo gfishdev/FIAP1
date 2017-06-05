@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Tributacao.java&apos; to &apos;AULA3_FUNDAMENTOS_JAVA_E_UML/src/br.com.fiap.fundamentosJavaUml.aula3&apos;&#x0D;&#x0A;- Original project: &apos;AULA2_FUNDAMENTOS_JAVA_E_UML&apos;&#x0D;&#x0A;- Destination element: &apos;AULA3_FUNDAMENTOS_JAVA_E_UML/src/br.com.fiap.fundamentosJavaUml.aula3&apos;&#x0D;&#x0A;- Original element: &apos;br.com.fiap.fundamentosJavaUml.aula2.Tributacao.java&apos;" description="Copy compilation unit" destination="=AULA3_FUNDAMENTOS_JAVA_E_UML/src&lt;br.com.fiap.fundamentosJavaUml.aula3" element1="/src&lt;br.com.fiap.fundamentosJavaUml.aula2{Tributacao.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1496706344322" units="1" version="1.0"/>
+</session>

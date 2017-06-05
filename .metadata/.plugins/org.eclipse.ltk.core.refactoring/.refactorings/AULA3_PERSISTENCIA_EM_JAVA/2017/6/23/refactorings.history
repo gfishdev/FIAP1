@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;AULA4_FUNDAMENTOS_JAVA_E_UML&apos;&#x0D;&#x0A;- Original project: &apos;AULA3_PERSISTENCIA_EM_JAVA&apos;&#x0D;&#x0A;- Destination element: &apos;AULA4_FUNDAMENTOS_JAVA_E_UML&apos;&#x0D;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" destination="=AULA4_FUNDAMENTOS_JAVA_E_UML" element1="lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1496704527147" units="0" version="1.0"/>
+</session>

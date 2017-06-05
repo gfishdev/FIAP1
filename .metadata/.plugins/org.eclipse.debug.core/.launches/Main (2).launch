@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/FIAP/src/br/com/fiap/persistenciaEmJava/aula2/roteiro2/aplicacao/Main.java"/>
+<listEntry value="/AULA2_PERSISTENCIA_EM_JAVA"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
-<listEntry value="1"/>
+<listEntry value="4"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="br.com.fiap.persistenciaEmJava.aula2.roteiro2.aplicacao.Main"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="FIAP"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AULA2_PERSISTENCIA_EM_JAVA"/>
 </launchConfiguration>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;lib&apos; to &apos;AULA4_PERSISTENCIA_EM_JAVA1&apos;" description="Move &apos;lib&apos; to &apos;AULA4_PERSISTENCIA_EM_JAVA1&apos;" destination="/AULA4_PERSISTENCIA_EM_JAVA1" element1="/AULA4_PERSISTENCIA_EM_JAVA/lib" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1496705223956" updateReferences="true"/>
+</session>

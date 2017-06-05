@@ -1,5 +1,0 @@
-package br.com.fiap.persistenciaEmJava.aula2.roteiro2;
-public interface PedidosDao {
-void incluirPedido(Pedidos pedido) throws Exception;
-List<Pedidos> listarPedidos(int idCliente) throws Exception;
-}
